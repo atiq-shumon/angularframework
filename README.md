@@ -1,5 +1,5 @@
 # angularframework
-##angular life cycle hook
+## angular life cycle hook
   - OnInit = 0,
   - OnDestroy = 1,
   - DoCheck = 2,
