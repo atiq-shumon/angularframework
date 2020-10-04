@@ -1,17 +1,11 @@
 # angularframework
-Angular Framework description
-description here
-dropdown list field:
+##angular life cycle hook
+  - OnInit = 0,
+  - OnDestroy = 1,
+  - DoCheck = 2,
+  - OnChanges = 3,
+  - AfterContentInit = 4,
+  - AfterContentChecked = 5,
+  - AfterViewInit = 6,
+  - AfterViewChecked = 7
 
-Display a component
-Let's display a slider component in your app and verify that everything works.
-
-#### You need to import the MatSliderModule that you want to display by adding the following lines to your app.module.ts file.
-
-import { MatSliderModule } from '@angular/material/slider';
-…
-@NgModule ({....
-  imports: [...,
-  MatSliderModule,
-…]
-})
