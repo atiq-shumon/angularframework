@@ -8,4 +8,6 @@
   - AfterContentChecked = 5,
   - AfterViewInit = 6,
   - AfterViewChecked = 7
+  
+  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
 
