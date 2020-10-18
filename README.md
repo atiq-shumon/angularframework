@@ -12,4 +12,7 @@
   [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
   
   [Angular VS Code development esstetial extentions](https://medium.com/@rajaramtt/angular-useful-extensions-c99a0461a3c6)
+  
+   [Angular VS Code development esstetial extentions-2](https://ionicframework.com/blog/10-awesome-vs-code-extensions/)
+  
 
