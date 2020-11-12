@@ -51,6 +51,7 @@ Tips for Running an Angular app in IIS
 
 STEP 3: add web.config link to angular.json: (because after ng build it will skipped)
 
+```
 "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
@@ -62,3 +63,4 @@ STEP 3: add web.config link to angular.json: (because after ng build it will ski
                             **"src/web.config"**
                         ]
 
+```
