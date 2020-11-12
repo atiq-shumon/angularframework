@@ -1,5 +1,10 @@
 # angularframework
-## angular life cycle hook
+
+  [Angular Project FAQ](faq.md)
+
+  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
+  
+  ## angular life cycle hook
   - OnInit = 0,
   - OnDestroy = 1,
   - DoCheck = 2,
@@ -8,10 +13,6 @@
   - AfterContentChecked = 5,
   - AfterViewInit = 6,
   - AfterViewChecked = 7
-  
-  [Angular Project FAQ](faq.md)
-  
-  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
   
   [Angular VS Code development esstetial extentions](https://medium.com/@rajaramtt/angular-useful-extensions-c99a0461a3c6)
   
