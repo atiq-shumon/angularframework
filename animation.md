@@ -3,6 +3,8 @@ Rich link
 ---------------------
 [animation in depth](https://indepth.dev/in-depth-guide-into-animations-in-angular)
 
+[another example](https://fireship.io/lessons/angular-router-animations/)
+
 Enter And Exit Animations
 -----------------------------
 Angular also provides some useful aliases such as :enter and :leave to animate elements entering and leaving the DOM. 
