@@ -29,3 +29,23 @@ uses:
 <div *ngIf="show" @fadeSlideInOut>...</div>
 
 ```
+Reusing animations
+------------------------------
+```Javascript
+// fade.animation.ts
+export const Fade = trigger('fade', [
+    transition(':enter', [
+        style({ opacity: 0 }),
+        animate('500ms', style({ opacity: 1 })),
+    ]),
+    transition(':leave', [animate('500ms', style({ opacity: 0 }))]),
+]);
+```
+uses:
+```Javascript
+import { Fade } from './fade.animation';
+
+@Component({
+	animations: [Fade],
+})
+```
