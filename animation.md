@@ -7,6 +7,8 @@ Rich link
 
 [Other Link](https://github.com/filipows/angular-animations#animations-on-enter--on-leave)
 
+[Route Animation](https://stackblitz.com/edit/angular7-route-animations?file=src%2Fapp%2Fcommon%2Fanimations.ts)
+
 Enter And Exit Animations
 -----------------------------
 Angular also provides some useful aliases such as :enter and :leave to animate elements entering and leaving the DOM. 
