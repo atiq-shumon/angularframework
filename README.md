@@ -4,6 +4,8 @@
 
   [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
   
+  [angular animation](animation.md)
+  
   ## angular life cycle hook
   - OnInit = 0,
   - OnDestroy = 1,
