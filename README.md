@@ -1,6 +1,8 @@
 # angularframework
 
   [Angular Project FAQ](faq.md)
+  
+  [deployment](faq.md)
 
   [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
   
