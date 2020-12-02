@@ -11,7 +11,7 @@ setting basepath in angular(angular.json)
 ```
 "root": "/"
 ```
-deploy script:
+deploy script: [link](https://stackoverflow.com/questions/55402751/angular-app-has-to-clear-cache-after-new-deployment/55403095)
 ----------------------------
 ```
  ng build --prod --aot --outputHashing=all
