@@ -11,3 +11,9 @@ setting basepath in angular(angular.json)
 ```
 "root": "/"
 ```
+deploy script:
+----------------------------
+```
+ ng build --prod --aot --outputHashing=all
+
+```
