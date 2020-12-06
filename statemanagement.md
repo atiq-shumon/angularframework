@@ -1,1 +1,1 @@
-[Link1](https://dzone.com/articles/angular-app-state-management-with-ngrx)
+[Link1](https://dzone.com/articles/angular-app-state-management-with-ngrx) || [link2](https://medium.com/angular-in-depth/how-to-start-flying-with-angular-and-ngrx-b18e84d444aa)
