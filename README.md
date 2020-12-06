@@ -6,6 +6,7 @@
 
   [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
   
+  [state management link](statemanagement.md)
   [angular animation](animation.md)
   
   ## angular life cycle hook
