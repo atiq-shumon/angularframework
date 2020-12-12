@@ -8,7 +8,7 @@
   
   [state management link](statemanagement.md)
   
-  [angular animation](animation.md)
+  [angular animation](animation.md) || [angular and chart.js](chartjs.md)
   
   ## angular life cycle hook
   - OnInit = 0,
