@@ -17,3 +17,12 @@ deploy script: [link](https://stackoverflow.com/questions/55402751/angular-app-h
  ng build --prod --aot --outputHashing=all
 
 ```
+
+File Downloading
+-------------------------------------------
+#### add MIME Type
+
+  ##### File name extension:
+         .apk
+  ##### MIME Type:
+          application/vnd.android.package-archive     
