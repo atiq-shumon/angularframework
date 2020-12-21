@@ -1,5 +1,15 @@
 Tips for Running an Angular app in IIS
 ------------------------------------------------
+File Downloading
+-------------------------------------------
+#### add MIME Type
+
+  ##### File name extension:
+         .apk
+  #####MIME Type:
+          application/vnd.android.package-archive     
+
+
  404 - File or directory not found
 ------------------------------------------------
 
