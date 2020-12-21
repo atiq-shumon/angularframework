@@ -1,14 +1,8 @@
 # angularframework
 
-  [Angular Project FAQ](faq.md)
-  
-  [deployment](faq.md)
-
-  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
-  
-  [state management link](statemanagement.md)
-  
-  [angular animation](animation.md) || [angular and chart.js](chartjs.md)
+  [Angular Project FAQ](faq.md) ||   [deployment](faq.md) ||   [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
+   
+  [state management link](statemanagement.md) ||   [angular animation](animation.md) || [angular and chart.js](chartjs.md)
   
   ## angular life cycle hook
   - OnInit = 0,
