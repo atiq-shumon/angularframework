@@ -6,7 +6,7 @@ File Downloading
 
   ##### File name extension:
          .apk
-  #####MIME Type:
+  ##### MIME Type:
           application/vnd.android.package-archive     
 
 
