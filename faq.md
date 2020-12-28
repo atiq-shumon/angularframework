@@ -3,12 +3,12 @@ setting basepath in angular(index.html)
 ```
 <base href="/">
 ```
-***href="/" means root folder in iis or application server***
+***href="/" means root folder(i.e. 192.168.44.31) in iis or application server***
 ```
-
 ng build --prod  --base-href="/icmsuinew/"
-
 ```
+***means base href that is ="/" then icmsuinew/ so full access path 192.168.44.31/icmsuinew/***
+
 setting basepath in angular(angular.json)
 -------------------------------------
 ```
