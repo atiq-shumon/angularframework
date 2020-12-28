@@ -9,6 +9,11 @@ File Downloading
   ##### MIME Type:
           application/vnd.android.package-archive     
 
+Error 4: Refreshing page causes 404
+------------------------------------------------
+If you are using routing you will find that refreshing a page when on a route (i.e. demo-app/Angular/page1) will give a 404 error, To resolve this one
+
+**Install Url rewrite**
 
  404 - File or directory not found
 ------------------------------------------------
