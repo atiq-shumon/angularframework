@@ -3,6 +3,9 @@ setting basepath in angular(index.html)
 ```
 <base href="/">
 
+means root folder in iis or application server
+
+
 ng build --prod  --base-href="/icmsuinew/"
 
 ```
