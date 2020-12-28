@@ -3,7 +3,7 @@ setting basepath in angular(index.html)
 ```
 <base href="/">
 ```
-***href="/" means root folder(i.e. 192.168.44.31) in iis or application server***
+***href="/" means root folder(i.e. http://192.168.44.31:80(default port)) in iis or application server***
 ```
 ng build --prod  --base-href="/icmsuinew/"
 ```
