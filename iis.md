@@ -48,7 +48,7 @@ If you are using routing you will find that refreshing a page when on a route (i
 
         </conditions>
 
-        <action type="Rewrite" url="/icmsuinew/" />
+        <action type="Rewrite" url="/advancederp/" />
 
         <!--<action type="Rewrite" url="/" />-->
 
