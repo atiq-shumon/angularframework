@@ -6,6 +6,8 @@ setting basepath in angular(index.html)
 ***href="/" means root folder(i.e. http://192.168.44.31:80(default port)) in iis or application server***
 ```
 ng build --prod  --base-href="/advancederp/" or <base href="/icmsuinew">  and productiton command  : ng build --prod
+
+ng build --prod  --base-href="/cssapcountersales/"
 ```
 ***means base href that is ="/" then icmsuinew/ so full access path 192.168.44.31/icmsuinew/***
 
