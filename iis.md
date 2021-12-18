@@ -1,3 +1,9 @@
+[Important Links]
+
+[deployment](https://github.com/atiq-shumon/angularframework/blob/master/faq.md)
+
+[Page Contents]
+
 Tips for Running an Angular app in IIS
 ------------------------------------------------
 File Downloading
