@@ -73,7 +73,7 @@ HTML & CSS
     
   </div>
 ```
-#### Adding dynamic validation
+#### Adding dynamic validation on radio button value change
 ```
 this.formGroup.get('salesmode').valueChanges
   .subscribe(value => {
