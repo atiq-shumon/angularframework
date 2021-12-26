@@ -1,3 +1,9 @@
+[important links]
+
+[Validator learning](https://blog.angular-university.io/angular-custom-validators/)
+
+
+[Validation]
 
 ##### Adding Dynamic Validation to form control
 ```
