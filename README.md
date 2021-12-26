@@ -4,6 +4,8 @@
    
   [state management link](statemanagement.md) ||   [angular animation](animation.md) || [angular and chart.js](chartjs.md)  || [image manipulation](image.md)
   
+  [Event Hanlding](https://github.com/atiq-shumon/angularframework/blob/master/eventhandling.md)
+  
   ## angular life cycle hook
   - OnInit = 0,
   - OnDestroy = 1,
