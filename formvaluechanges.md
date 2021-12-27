@@ -18,13 +18,6 @@ this.reactiveForm.get("firstname").valueChanges.subscribe(selectedValue => {
   console.log(this.reactiveForm.get("firstname").value)   //latest value of firstname
 });
 ---------------------------------------
-2
-3
-4
-5
-6
-7
-8
  
 this.reactiveForm.get("firstname").valueChanges.subscribe(selectedValue => {
   console.log('firstname value changed')
