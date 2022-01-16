@@ -16,7 +16,7 @@ addToGrid(){
 
 or 
 this.dataSource = [newRow, ...this.dataSource];
-
+----------------------------------------------------------------
 deletetableItem(row:any,index:any){
     this.dataSource.data.splice(index, 1);
     this.dataSource._updateChangeSubscription();
