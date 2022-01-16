@@ -1,5 +1,6 @@
 
-#### ts
+#### ts part
+```
 
 displayedColumns: string[] = ['company','product', 'amount'];
  dataSource=new MatTableDataSource<any>();
@@ -13,6 +14,7 @@ addToGrid(){
   this.dataSource.data = [...this.dataSource.data, {"company":"ctg","product":"bag", "amount":500}];
 }
   
+  ```
   ### Htmls
 ``` html  
  -------------------------------------------
