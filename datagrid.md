@@ -15,8 +15,10 @@ addToGrid(){
   
   ### Htmls
 ``` html  
+ -------------------------------------------
  <button  (click)="addToGrid()" mat-raised-button  style="border-radius:1rem;cursor: pointer;" ><mat-icon>check box</mat-icon>&nbsp;Add</button>
-  
+ ------------------------------------------- 
+ 
   <table #table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
   <!--- Note that these columns can be defined in any order.
