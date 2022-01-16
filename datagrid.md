@@ -13,7 +13,15 @@ displayedColumns: string[] = ['company','product', 'amount','actions'];
 addToGrid(){
   this.dataSource.data = [...this.dataSource.data, {"company":"ctg","product":"bag", "amount":500}];
 }
-  
+
+or 
+this.dataSource = [newRow, ...this.dataSource];
+
+deletetableItem(row:any,index:any){
+    this.dataSource.data.splice(index, 1);
+    this.dataSource._updateChangeSubscription();
+}
+
   ```
   ### Htmls
 ``` html  
