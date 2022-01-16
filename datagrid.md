@@ -2,7 +2,7 @@
 #### ts part
 ```
 
-displayedColumns: string[] = ['company','product', 'amount'];
+displayedColumns: string[] = ['company','product', 'amount','actions'];
  dataSource=new MatTableDataSource<any>();
  
   constructor(...........){
