@@ -2,7 +2,7 @@
 
 [Form Value Change Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md) || 
 
-[Adding grid to data to main form group](#Adding-grid-to-data-to -main-form-group)
+[Adding grid to data to main form group](#Adding-grid-to-data-to-main-form-group)
 
 
 [Page Contents] || [Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist)
