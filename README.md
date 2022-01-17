@@ -2,7 +2,12 @@
 
   [Angular Project FAQ](faq.md) ||   [deployment](faq.md) ||  [--iis and angular---](iis.md) ||  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
    
-  [state management link](statemanagement.md) ||   [angular animation](animation.md) || [angular and chart.js](chartjs.md)  || [image manipulation](image.md)
+  [state management link](statemanagement.md) ||  
+  
+  Image charts and animations
+  -----------------------------------
+  
+  [angular animation](animation.md) || [angular and chart.js](chartjs.md)  || [image manipulation](image.md)
   
   Error and Event handling
   -----------------------------------
