@@ -8,7 +8,11 @@
   
   Components
   -----------------------------------
-  [Drop down list handling](https://github.com/atiq-shumon/angulardropdownlist/blob/master/README.md) || [Form Value changes Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md) || [*****  Angular Material Data grid](https://github.com/atiq-shumon/angularframework/blob/master/components/datagrid.md)
+  [Drop down list handling](https://github.com/atiq-shumon/angulardropdownlist/blob/master/README.md) || [Form Value changes Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
+  
+  - Datagrid
+  
+  [*****  Angular Material Data grid](https://github.com/atiq-shumon/angularframework/blob/master/components/datagrid.md)
   
   [Data grid and Form Group](https://github.com/atiq-shumon/angularframework/blob/master/components/datagridandformgroup.md)
   
