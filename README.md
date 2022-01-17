@@ -4,6 +4,9 @@
    
   [state management link](statemanagement.md) ||   [angular animation](animation.md) || [angular and chart.js](chartjs.md)  || [image manipulation](image.md)
   
+  Error and Event handling
+  -----------------------------------
+  
   [Event Hanlding](https://github.com/atiq-shumon/angularframework/blob/master/eventhandling.md) || [Error Handling and Validations](https://github.com/atiq-shumon/angularframework/blob/master/errorhandling.md)
   
   Components
