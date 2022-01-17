@@ -111,6 +111,7 @@ addToGrid(v:any){
   <ng-container matColumnDef="company">
     <th mat-header-cell *matHeaderCellDef> Company </th>
     <td mat-cell *matCellDef="let element"> {{element.company}} </td>
+    <td mat-footer-cell *matFooterCellDef> </td>
   </ng-container>
  <!-- Name Column -->
  <ng-container matColumnDef="product">
@@ -125,8 +126,17 @@ addToGrid(v:any){
   <td mat-cell *matCellDef="let element"> {{element.amount}} </td>
   <td mat-footer-cell *matFooterCellDef>  <b>{{getTotalAmount() }}</b> </td>
 </ng-container>
+.....................
+..............
+</ng-container>
 
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr [@rowsAnimation]=""  mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  <tr [@rowsAnimation]="" mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+</table>
 --------------------------------
-
+getTotalAmount(){
+         return Utility.tobdt(this.dataSource.data.map(t => t.amount).reduce((acc, value) => acc +  +value, 0));
+     }
 
 ```
