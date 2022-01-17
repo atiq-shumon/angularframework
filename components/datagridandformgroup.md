@@ -16,6 +16,17 @@ export class BulkSalesModeFieldComponent implements OnDestroy,AfterViewInit,Afte
  
  }
   ngOnInit(): void {
+  
+  ----------------adding to main form group
+  
+  if(!this.formGroup.get('salesmode')){
+      this.formGroup.addControl("salesmode",new FormControl());
+      this.formGroup.addControl("creditpaymentdate",new FormControl(''))
+      this.formGroup.addControl("adjustedamount",new FormControl(''))
+    }
+  
+  ------------------------
+  
   this.paymentmodefromgroup.addControl("paymenttypes",new FormControl('',[Validators.required]));
     //  this.paramFormConfig[prop].value ||new Date()
     this.paymentmodefromgroup.addControl("date",new FormControl(new Date(),Validators.required));
