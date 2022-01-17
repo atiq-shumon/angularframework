@@ -29,3 +29,26 @@ this.reactiveForm.get("firstname").valueChanges.subscribe(selectedValue => {
  
 
 ```
+
+Value Changes and Validators
+-----------------------------------
+```Javascript
+
+  this.formGroup.get('salesmode').valueChanges
+       .subscribe(value => {
+          if(value==='C') {
+            //console.log(value);
+            this.formGroup.get('adjustedamount').clearValidators();
+            this.formGroup.controls["adjustedamount"].updateValueAndValidity();
+            this.formGroup.get('creditpaymentdate').setValidators([Validators.required]);
+        } 
+          if(value==='A') {
+            //console.log(value);
+            this.formGroup.get('creditpaymentdate').clearValidators();
+            this.formGroup.controls["creditpaymentdate"].updateValueAndValidity();
+            this.formGroup.get('adjustedamount').setValidators([Validators.required]);
+        
+          }
+  });
+   
+```
