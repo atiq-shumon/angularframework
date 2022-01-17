@@ -2,6 +2,7 @@
 
 [Validator learning](https://blog.angular-university.io/angular-custom-validators/) || [Form Value Changes and Validators](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
 
+[Page Contents]
 
 [Validation] || [On keyup Custom Validations](#onKeyup-Custom-validation )
 
