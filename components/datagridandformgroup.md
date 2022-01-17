@@ -3,7 +3,7 @@
 [Form Value Change Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
 
 
-[Page Contents]
+[Page Contents] || [Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist)
 
 ```Javascript
 
@@ -46,4 +46,16 @@ reloadaddpaymentform(){
      this.paymentmodefromgroup.get("bankaccount").setValue('');
    }  
 }
+```
+
+## Getting Key value of Dropdownlist
+-----------------------------------------
+```Javascript
+let types=this.paymenttypes.find(c => c.value === paymenttypeid);
+      //console.log(this.bankmasterdata);
+      let banks=(typeof v.bank!=='undefined')?this.bankmasterdata.find(c => c.value === v.bank):{display:'',value:''};
+  
+  let data={paymenttype: types.display,paymenttypeoid:types.value, amount: amount, reffnumber: reffnumber, date: date, bankname: banks.display,bankoid:banks.value
+        , branchname: branch};
+
 ```
