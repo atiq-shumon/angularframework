@@ -18,6 +18,11 @@ displayedColumns: string[] = ['company','product', 'amount','actions'];
   
   }
   
+addToGrid(v:any){
+    this.dataSource.data = [...this.dataSource.data, {"company":v.company,"product":v.product, "amount":v.amount}];
+}
+  
+  
 addToGrid(){
   this.dataSource.data = [...this.dataSource.data, {"company":"ctg","product":"bag", "amount":500}];
 }
