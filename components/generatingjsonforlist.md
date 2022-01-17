@@ -1,4 +1,4 @@
-```
+```Javascript
 let pmtdata= this.salesmodestring.split("~");
     if(pmtdata.length>1){
       this.formGroup.get('salesmode').setValue(pmtdata[0]);
