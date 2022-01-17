@@ -1,6 +1,6 @@
 
 #### ts part
-```
+```Javascript
 
 displayedColumns: string[] = ['company','product', 'amount','actions'];
  dataSource=new MatTableDataSource<any>();
