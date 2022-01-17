@@ -17,15 +17,15 @@
   Components
   -----------------------------------
   
-  - Drop down list
+ ####  Drop down list
   
   [Drop down list handling](https://github.com/atiq-shumon/angulardropdownlist/blob/master/README.md) 
   
-  - Form and Form group
+  ####  Form and Form group
   
   [Form Value changes Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
   
-  - Datagrid
+  ####  Datagrid
   
   [*****  Angular Material Data grid](https://github.com/atiq-shumon/angularframework/blob/master/components/datagrid.md)
   
