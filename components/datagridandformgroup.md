@@ -5,7 +5,7 @@
 
 [Page Contents] || 
 
-[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [Adding sub Form Data to Grid](#adding-sub-form-data-to-grid)
+[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [***** Adding sub Form Data to Grid](#adding-sub-form-data-to-grid)
 
 ```Javascript
 
@@ -87,4 +87,8 @@ let types=this.paymenttypes.find(c => c.value === paymenttypeid);
       this.reloadaddpaymentform();
     //  console.log( this.bulksalesmodeservice.getValue);
     }
+```
+# adding sub form data to grid
+----------------------------------------------
+```
 ```
