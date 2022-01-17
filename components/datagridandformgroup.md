@@ -90,5 +90,16 @@ let types=this.paymenttypes.find(c => c.value === paymenttypeid);
 ```
 # adding sub form data to grid
 ----------------------------------------------
-```
+```Javascript
+------------------------------------------
+<button (click)=addToGrid(balancetransferformgroup.value);   [disabled]="!this.balancetransferformgroup.valid" mat-raised-button [ngClass] = "{'enabled-color': this.balancetransferformgroup.valid} " style="border-radius:1rem;cursor: pointer;" ><mat-icon>check box</mat-icon>&nbsp;Add</button>
+------------------------------------------
+addToGrid(v:any){
+ // console.log(v);
+  let companytitle=this.companies.find(c => c.value === v.companyid).display;
+  let producttitle=this.companies.find(c => c.value === v.companyid).display;
+  this.dataSource.data = [...this.dataSource.data, {"companyid":v.companyid,"company":companytitle,"productid":v.productid,"product":producttitle, "amount":v.transferamount}];
+  this.balancetransferformgroup.reset();
+  // console.log(this.dataSource.data)
+}
 ```
