@@ -59,3 +59,30 @@ let types=this.paymenttypes.find(c => c.value === paymenttypeid);
         , branchname: branch};
 
 ```
+# Adding grid to data to main form group
+--------------------------------------------------
+```Javascript
+   onpaymentformgroupaddbuttonclick(v:any){
+
+      let paymenttypeid=v.paymenttypes;
+     // const toSelect = this.crieteria.find(c => c.value === 'getcustomer');
+      let types=this.paymenttypes.find(c => c.value === paymenttypeid);
+      //console.log(this.bankmasterdata);
+      let banks=(typeof v.bank!=='undefined')?this.bankmasterdata.find(c => c.value === v.bank):{display:'',value:''};
+    //  console.log(banks);
+     // let paymenttypename=v.paymenttypes;
+      let amount=v.amount;
+      let reffnumber=v.reffNumber;
+      let date=typeof v.date!=='undefined'? Utility.dateToYMD(v.date):'';
+      let branch=v.branch;
+      let data={paymenttype: types.display,paymenttypeoid:types.value, amount: amount, reffnumber: reffnumber, date: date, bankname: banks.display,bankoid:banks.value
+        , branchname: branch};
+
+       this.dataSource.data.push(data);
+        this.dataSource.filter = "";
+        this.formGroup.get("depositfieldId").setValue(this.dataSource.data);
+    //  this.bulksalesmodeservice.addData(data);
+      this.reloadaddpaymentform();
+    //  console.log( this.bulksalesmodeservice.getValue);
+    }
+```
