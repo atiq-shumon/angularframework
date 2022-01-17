@@ -3,7 +3,7 @@
 
 export class BulkSalesModeFieldComponent implements OnDestroy,AfterViewInit,AfterViewChecked{
 
- paymentmodefromgroup:FormGroup;
+ paymentmodeformgroup:FormGroup;
  
  constructor(){
     this.paymentmodefromgroup=new FormGroup({});
