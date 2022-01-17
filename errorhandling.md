@@ -1,6 +1,6 @@
 [important links]
 
-[Validator learning](https://blog.angular-university.io/angular-custom-validators/)
+[Validator learning](https://blog.angular-university.io/angular-custom-validators/) || [Form Value Changes and Validators](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
 
 
 [Validation]
