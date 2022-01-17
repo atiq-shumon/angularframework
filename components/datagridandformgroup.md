@@ -5,7 +5,7 @@
 
 [Page Contents] || 
 
-[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [***** Adding sub Form Data to Grid](#adding-sub-form-data-to-grid) || [********Adding Footer To grid](#adding-footer-to-grid)
+[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [***** Adding sub Form Data to Grid](#adding-sub-form-data-to-grid) || [********Adding Footer To grid](#adding-footer-to-grid) || [***** Adding comma to column](#adding-comma-to-column)
 
 ```Javascript
 
@@ -139,4 +139,25 @@ getTotalAmount(){
          return Utility.tobdt(this.dataSource.data.map(t => t.amount).reduce((acc, value) => acc +  +value, 0));
      }
 
+```
+
+# adding comma to column
+-------------------------------------
+```HTML
+ <!-- Name Column -->
+ <ng-container matColumnDef="amount">
+  <th mat-header-cell *matHeaderCellDef> Amount </th>
+  <td mat-cell *matCellDef="let element"> {{addcomma(element.amount)}} </td>
+  <td mat-footer-cell *matFooterCellDef>  <b>{{getTotalAmount() }}</b> </td>
+</ng-container>
+---------------------------------
+addcomma(val:any){
+  if(typeof val!=='undefined'){
+    return Utility.tobdt(val);
+  }
+  else{
+    return 'x';
+  }
+
+}
 ```
