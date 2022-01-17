@@ -106,6 +106,27 @@ addToGrid(v:any){
 
 # adding footer to grid
 --------------------------------------------
-```
+```Html
+  <!-- Position Column -->
+  <ng-container matColumnDef="company">
+    <th mat-header-cell *matHeaderCellDef> Company </th>
+    <td mat-cell *matCellDef="let element"> {{element.company}} </td>
+  </ng-container>
+ <!-- Name Column -->
+ <ng-container matColumnDef="product">
+  <th mat-header-cell *matHeaderCellDef> Product </th>
+  <td mat-cell *matCellDef="let element"> {{element.product}} </td>
+  <td mat-footer-cell *matFooterCellDef>Total: </td>
+</ng-container>
+
+ <!-- Name Column -->
+ <ng-container matColumnDef="amount">
+  <th mat-header-cell *matHeaderCellDef> Amount </th>
+  <td mat-cell *matCellDef="let element"> {{element.amount}} </td>
+  <td mat-footer-cell *matFooterCellDef>  <b>{{getTotalAmount() }}</b> </td>
+</ng-container>
+
+--------------------------------
+
 
 ```
