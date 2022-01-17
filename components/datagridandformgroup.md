@@ -20,5 +20,13 @@ export class BulkSalesModeFieldComponent implements OnDestroy,AfterViewInit,Afte
     this.paymentmodefromgroup.addControl("amount",new FormControl({value: '', disabled: false},[Validators.required]));
  
   }
+reloadaddpaymentform(){
+     this.paymentmodefromgroup.get('reffNumber').setValue('');
+     this.paymentmodefromgroup.get('bank').setValue('');
+     this.paymentmodefromgroup.get('date').setValue(new Date());
+     this.paymentmodefromgroup.get("branch").setValue('');
+     this.paymentmodefromgroup.get("amount").setValue('');
+     this.paymentmodefromgroup.get("bankaccount").setValue('');
+   }  
 }
 ```
