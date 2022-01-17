@@ -95,7 +95,7 @@ this.formGroup.get('salesmode').valueChanges
 ```
 #### onKeyup Custom validation 
 -----------------------------------------------------
-```
+```Javascript
 onAdjustFieldkeyup(event:any){
  // console.log(this.formGroup)
   var textval=parseFloat(this.formGroup.get('adjustedamount').value.replace(/,/g, ''));
