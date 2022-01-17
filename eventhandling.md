@@ -1,5 +1,5 @@
   #### onKeyUP event handling
-  ```
+  ```html
   <mat-form-field class="example-full-width">
       <mat-label>Adjusted Amount</mat-label>
       <input matInput (keyup)="onAdjustFieldkeyup($event)" placeholder="Adjusted Amount" value="" formControlName="adjustedamount" autocomplete="off">
