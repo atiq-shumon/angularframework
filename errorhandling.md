@@ -3,7 +3,7 @@
 [Validator learning](https://blog.angular-university.io/angular-custom-validators/) || [Form Value Changes and Validators](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md)
 
 
-[Validation]
+[Validation] || [On keyup Custom Validations](#onKeyup-Custom-validation )
 
 ##### Adding Dynamic Validation to form control
 
@@ -94,6 +94,7 @@ this.formGroup.get('salesmode').valueChanges
   
 ```
 #### onKeyup Custom validation 
+-----------------------------------------------------
 ```
 onAdjustFieldkeyup(event:any){
  // console.log(this.formGroup)
