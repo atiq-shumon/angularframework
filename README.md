@@ -12,7 +12,7 @@
   Error and Event handling
   -----------------------------------
   
-  [Event Hanlding](https://github.com/atiq-shumon/angularframework/blob/master/eventhandling.md) || [Error Handling and Validations](https://github.com/atiq-shumon/angularframework/blob/master/errorhandling.md)
+  [Event Hanlding](https://github.com/atiq-shumon/angularframework/blob/master/eventhandling.md) || [Error Handling and Validations](https://github.com/atiq-shumon/angularframework/blob/master/errorhandling.md) || [input validations]()
   
   Components
   -----------------------------------
