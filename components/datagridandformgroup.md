@@ -5,9 +5,7 @@
 
 [Page Contents] || 
 
-[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [***** Adding sub Form Data to Grid](#adding-sub-form-data-to-grid) 
-
-|| [Adding Footer To grid](#adding-footer-to-grid)
+[Getting Key Value of Dropdown list](#Getting-Key-value-of-Dropdownlist) || [***** Adding sub Form Data to Grid](#adding-sub-form-data-to-grid) || [********Adding Footer To grid](#adding-footer-to-grid)
 
 ```Javascript
 
