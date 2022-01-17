@@ -14,6 +14,8 @@
   
   [Event Hanlding](https://github.com/atiq-shumon/angularframework/blob/master/eventhandling.md) || [Error Handling and Validations](https://github.com/atiq-shumon/angularframework/blob/master/errorhandling.md) || [input validations](https://github.com/atiq-shumon/angularframework/blob/master/validations/inputs.md)
   
+  [Form Fields with Validations](https://github.com/atiq-shumon/angularframework/blob/master/validations/formfieldwithvalidations.md)
+  
   Components
   -----------------------------------
   
