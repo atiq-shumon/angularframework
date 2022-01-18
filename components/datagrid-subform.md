@@ -569,13 +569,6 @@ else{
 }
 
 
-
-
-
-
-
-
-
 doSubmit(value:any){
   let crudmode='s';/* s or e */
   let apidatajson={};
