@@ -1,7 +1,7 @@
 
 
 
-Data Grid Sub Form Complete Example
+Data Grid Sub Form Complete Example || [Data Grid Sub Form HTML part](#Data-Grid-Sub-Form-HTML-part) || [Data Grid Sub Form CSS part](#Data-Grid-Sub-Form-CSS-part)
 -----------------------------------------------
 
 ### DataGrid SubForm JS part
@@ -203,7 +203,7 @@ keyPressNumbersWithDecimal(event) {
 }
 ```
 
-Data Grid Sub Form HTML part
+## Data Grid Sub Form HTML part
 -------------------------------------------
 ```HTML
 <div class="example-container">
