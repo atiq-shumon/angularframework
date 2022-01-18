@@ -1,4 +1,11 @@
-# angularframework
+[Important Links]
+
+[Javascript Functions](https://github.com/atiq-shumon/js-hacks-javascript-async-js/blob/master/README.md)
+
+[React](https://github.com/atiq-shumon/react/blob/main/README.md)
+
+
+# angular framework
 
   [Angular Project FAQ](faq.md) ||   [deployment](faq.md) ||  [--iis and angular---](iis.md) ||  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
    
