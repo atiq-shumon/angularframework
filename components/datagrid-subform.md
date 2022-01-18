@@ -1,7 +1,7 @@
 
 
 
-Data Grid Sub Form Complete Example || [Data Grid Sub Form HTML part](#Data-Grid-Sub-Form-HTML-part) || [Data Grid Sub Form CSS part](#Data-Grid-Sub-Form-CSS-part)
+Data Grid Sub Form Complete Example || [Data Grid Sub Form HTML part](#Data-Grid-Sub-Form-HTML-part) || [Data Grid Sub Form CSS part](#Data-Grid-Sub-Form-CSS-part) || [Submission with Main Form](#Submission-with-Main-Form)
 -----------------------------------------------
 
 ### DataGrid SubForm JS part
@@ -535,3 +535,68 @@ border-radius: .5rem;
 }
 
 ```
+
+## Submission with Main Form 
+---------------------------------------
+```Javascript
+doSubmit(value:any){
+  let crudmode='s';/* s or e */
+  let apidatajson={};
+ 
+  let transferamount=Utility.isArray(value.balancetransferfield)?value.balancetransferfield.map(t => t.amount).reduce((acc, value) => acc +  +value, 0):0;
+  let depositamount=Utility.isArray(value.depositfieldId)?value.depositfieldId.map(t => t.amount).reduce((acc, value) => acc +  +value, 0):0;
+  if (transferamount>depositamount){
+    this.toasterservice.showToaster("Balance transfer amount exceeding Deposit amount..please check","red-snackbar");
+    return;
+  }
+ 
+  if(value.depositfieldId==='x'|| value.depositfieldId.length===0){
+       this.toasterservice.showToaster("Please add Deposit details","red-snackbar");
+       return;
+  }
+  
+
+  if(this.currentoptionmode==='depositreceivebulk'){
+    apidatajson={
+      DepositId:value.depositId,
+      company:{CompanyId:value.CompanyId},
+      SalesLocation:{Oid:(typeof value.depositreceivedlocationId!=='undefined')?value.depositreceivedlocationId:''},
+      SalesTeamTypeId:'B',
+      customer:{CustomerId:value.CustomerId},
+      BillNumber:value.BillNumber,
+      RequisitionId:'x',
+      Product:{ProductID:value.ProductId},
+      remarks:value.remarks,
+      depositdetailsstring:this.getdetailsstring(value.depositfieldId),
+      balancetransferstring:this.getbalancetransferstring(value.balancetransferfield),
+      EntryParameter :{EntryBy:this.userservice.UserID,EntryActionCode:crudmode,ActionControlMode:this.currentoptionmode,CompanyID:'x',LocationID:'x',MachineID:'x'},
+       // product
+    }
+ }
+ if(this.currentoptionmode==='depositreceivemhasan'){
+  apidatajson={
+    DepositId:value.depositId,
+    company:{CompanyId:value.CompanyId},
+    SalesLocation:{Oid:(typeof value.depositreceivedlocationId!=='undefined')?value.depositreceivedlocationId:''},
+    SalesTeamTypeId:'M',
+    customer:{CustomerId:value.CustomerId},
+    BillNumber:'x',
+    RequisitionId:'x',
+    Product:{ProductID:'x'},
+    remarks:value.remarks,
+    depositdetailsstring:this.getdetailsstring(value.depositfieldId),
+    balancetransferstring:this.getbalancetransferstring(value.balancetransferfield),
+    EntryParameter :{EntryBy:this.userservice.UserID,EntryActionCode:crudmode,ActionControlMode:this.currentoptionmode,CompanyID:'x',LocationID:'x',MachineID:'x'},
+     // product
+  }
+}
+  
+   let apipath=this.serverPath+value.actionpath;
+   this.crudservice.saveData(crudmode,apipath,apidatajson,this);
+
+
+}
+}
+
+```
+
