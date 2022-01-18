@@ -1,6 +1,6 @@
 [Important Links]
 
-[Form Value Change Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md) || [Adding grid to data to main form group](#Adding-grid-to-data-to-main-form-group)
+[Form Value Change Handling](https://github.com/atiq-shumon/angularframework/blob/master/formvaluechanges.md) || [Adding grid to data to main form group](#Adding-grid-to-data-to-main-form-group) || [Finding Summation of Grid Data](https://github.com/atiq-shumon/js-hacks-javascript-async-js/blob/master/README.md#Summation-of-Grid-data)
 
 
 [Page Contents] || 
