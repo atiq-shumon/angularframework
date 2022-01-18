@@ -1,3 +1,9 @@
+[Important Links]
+
+[Javascript Functions](https://github.com/atiq-shumon/js-hacks-javascript-async-js/blob/master/README.md)
+
+
+
 
 Datagrid
 --------------------------
