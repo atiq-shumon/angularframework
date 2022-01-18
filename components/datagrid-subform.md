@@ -539,6 +539,43 @@ border-radius: .5rem;
 ## Submission with Main Form 
 ---------------------------------------
 ```Javascript
+
+getdetailsstring(breakdowndata:any){
+  this.detailsstr="";
+  //console.log(datalist);
+  breakdowndata.forEach((arr,i)=>{
+   // console.log(product);
+  //  let laborcharge=((typeof product.laborcharge!=='undefined')?product.laborcharge:0);
+   // this.detailsstr+=((typeof product.prodId!=='undefined')?product.prodId:'x')+":"+product.Qty+":"+product.Rate+":"+product.NumberOfDo+":"+product.DeliveryCharge+":"+product.DeliveryRate+":"+laborcharge+":"+product.PackWeight+":"+product.LineTotal+":"+"remarks"+";";
+   let reffno=typeof arr.reffnumber!=='undefined'?arr.reffnumber:'';
+   let checkvaldate=typeof arr.date!=='undefined'?arr.date:'';
+   let bankaccountno=typeof arr.bankoid!=='undefined'?arr.bankoid:'';
+   let bankbranch=typeof arr.branchname!=='undefined'?arr.branchname:'';
+   this.detailsstr+=arr.paymenttypeoid+":"+arr.amount+":"+reffno+":"+checkvaldate+":"+bankaccountno+":"+bankbranch+":;";
+  });
+  return  this.detailsstr;
+}
+getbalancetransferstring(transferval:any){
+  let transferstring="";
+  if(Utility.isArray(transferval)){
+      transferval.forEach((arr,i)=>{
+        transferstring+=arr.companyid+":"+arr.productid+":"+"note"+":"+arr.amount+";";
+      });
+ }
+else{
+  transferstring="x";
+}
+    return transferstring===""?'x':transferstring;
+}
+
+
+
+
+
+
+
+
+
 doSubmit(value:any){
   let crudmode='s';/* s or e */
   let apidatajson={};
