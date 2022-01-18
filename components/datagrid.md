@@ -1,6 +1,6 @@
 [Important Links]
 
-[FormGroup and Data grid](https://github.com/atiq-shumon/angularframework/blob/master/components/datagridandformgroup.md) || [Adding Grid data to main Form Group](https://github.com/atiq-shumon/angularframework/blob/master/components/datagridandformgroup.md#Adding-grid-to-data-to-main-form-group)
+[FormGroup and Data grid](https://github.com/atiq-shumon/angularframework/blob/master/components/datagridandformgroup.md) || [Adding Grid data to main Form Group](https://github.com/atiq-shumon/angularframework/blob/master/components/datagridandformgroup.md#Adding-grid-to-data-to-main-form-group) || [Javascript Functions](https://github.com/atiq-shumon/js-hacks-javascript-async-js/blob/master/README.md)
 
 
 
