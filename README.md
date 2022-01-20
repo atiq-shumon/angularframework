@@ -9,7 +9,7 @@
 
   [Angular Project FAQ](faq.md) ||   [deployment](faq.md) ||  [--iis and angular---](iis.md) ||  [Constructor vs ngOnInit](https://www.youtube.com/watch?v=aZLMLPGt9NM&ab_channel=codebits)
    
-  [state management link](statemanagement.md) ||  
+  [state management link](statemanagement.md) ||   [More on Angular](https://github.com/atiq-shumon/Smartform_backend_ui_C-_fields/tree/master/angular)
   
   Image charts and animations
   -----------------------------------
