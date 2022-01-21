@@ -44,6 +44,12 @@
   
   [****** Data grid and Form -sub form complete example](https://github.com/atiq-shumon/angularframework/blob/master/components/datagrid-subform.md)
   
+  Dialog
+  ------------------------------------------
+  [Angular Material Dialog](https://blog.angular-university.io/angular-material-dialog/)
+  
+  
+  
   Services
   ---------------------------------
   [Services with datagrid]()
