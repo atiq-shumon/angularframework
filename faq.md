@@ -1,4 +1,4 @@
-setting basepath in angular(index.html)
+setting basepath in angular(index.html) || [PWA](https://github.com/atiq-shumon/react/blob/main/installationanddeployment/PWA/pwa.md)
 -------------------------------------
 ```
 <base href="/">
