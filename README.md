@@ -2,7 +2,7 @@
 
 [Javascript Functions](https://github.com/atiq-shumon/js-hacks-javascript-async-js/blob/master/README.md)
 
-[React](https://github.com/atiq-shumon/react/blob/main/README.md)
+[React](https://github.com/atiq-shumon/react/blob/main/README.md) || [PWA](https://github.com/atiq-shumon/react/blob/main/installationanddeployment/PWA/pwa.md)
 
 
 # Angular Framework
